@@ -1,0 +1,83 @@
+* {  box-sizing: border-box; font-family: arial, calibri;  }
+
+ 
+
+.row-header{
+margin: 0px auto;
+padding: 0px auto;
+}
+
+ 
+
+
+.row-content{
+margin: 0px auto;
+padding: 50px 0px 50px 0px;
+border-bottom: 1px ridge;
+min-height: 400px;
+}
+
+.footer{
+background-image: url(../../img/fondo2.jpg);
+/**background-color:  #D1C4E9;**/
+margin: 0px auto;
+padding: 20px 0px 20px 0px;
+
+}
+
+.cabecera{
+	padding: 70px 30px 70px 30px;
+	margin: 0px auto;
+	/*background: #07080B;*/
+    background-image: url(../../img/fondo2.jpg);
+	color: #FFFF6D; /** #793F00;  **/
+}
+
+.cabecera h1{
+     color: white;
+text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 25px #FFFF6D, 0 0 5px  #793F00;
+}
+
+
+.cabecera form{  font-weight: lighter;}
+h1+p{  text-align: center;}
+
+
+
+
+.address{
+font-size: 80%;
+margin: 0px;
+color:  floralwhite;
+}
+
+
+.text-icon-search{
+background-position: left center;
+padding-left: 32px; 
+background-image: url(../../img/world_bus.png);
+background-repeat: no-repeat;  
+
+}
+
+
+
+img#logo-page{ width: 100px;   height: 117px;}
+  
+
+div[id|=container]{
+            width: 940px;
+            margin: 0 auto;
+        }
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ @media only screen and (max-width: 768px){
+
+ }
